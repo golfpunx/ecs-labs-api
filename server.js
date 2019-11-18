@@ -4,7 +4,7 @@ var fs = require("fs");
 
 app.get('/api', function (req, res) {
    console.log(`request ${req.method} ${req.path}`);
-   res.send({ name: 'Example API', version: 1.0 })
+   res.send({ name: 'Example API', version: 1.1 })
 })
 
 var server = app.listen(8081, function () {
